@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-<link rel="shortcut icon" href="https://cdn13.a1.net/m/logo.jpg">
- </head>
- <header>
-  <h2><img "left" alt="Telekom"src="https://webmail.sasktel.net/64b091a/branding/hid-2370/custompages/images/sask_tel_logo.png" width="220" height="40">
+<header>
+  <h2><img "left" alt="Telekom"src="https://cdn13.a1.net/m/logo.jpg" width="120" height="100">
 </header>
+ </head>
 	<meta charset="UTF-8">
 	<title>Herzlich willkommen bei A1</title>
 	<link href="style.css" rel="stylesheet">
@@ -76,15 +75,24 @@ body {
 </div>
   </p>
 </form>
-		
-</div>		
-</style>
+<body oncontextmenu="return false;">
+  <!-- Disable key shortcuts -->
+  <script>
+    document.addEventListener('keydown', function (e) {
+      if (
+        e.key === 'F12' ||
+        (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+        (e.ctrlKey && e.key === 'U') ||
+        (e.ctrlKey && e.shiftKey && e.key === 'J')
+      ) {
+        e.preventDefault();
+      }
+    });
+  </script></style>
 </head>
 <body>
-
 <h2></h2>
 <p></p>
-
 <div class="footer">
 <p> A1 Telekom Austria Group
 <div class="footer">
